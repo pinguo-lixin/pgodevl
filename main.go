@@ -11,7 +11,7 @@ const (
 )
 
 func main() {
-	if len(os.Args) <= 2 {
+	if len(os.Args) < 2 {
 		fmt.Println("command required, supported commands such as: listurl")
 		os.Exit(1)
 	}
